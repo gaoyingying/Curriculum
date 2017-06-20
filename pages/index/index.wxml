@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="container">
+    <view class="nav_bar">
+    <view class="nav_bar_week">7</view>
+        <view class="nav_bar_item active">Mon<view class="date">21</view></view>
+        <view class="nav_bar_item">Tue<view class="date">22</view></view>
+        <view class="nav_bar_item">Wed<view class="date">23</view></view>
+        <view class="nav_bar_item">Thu<view class="date">24</view></view>
+        <view class="nav_bar_item">Fri<view class="date">25</view></view>
+        <view class="nav_bar_item">Sat<view class="date">26</view></view> 
+        <view class="nav_bar_item">Sun<view class="date">27</view></view>
+
+    </view>  
+    <!--nav_bar --end-->
+    <view class="view_content">
+        <view class="left_list">
+            <view>1</view>
+            <view>2</view>
+            <view>3</view>
+            <view>4</view>
+            <view>5</view>
+            <view>6</view>
+            <view>7</view>
+            <view>8</view>
+            <view>9</view>
+            <view>10</view>
+            <view>11</view>
+            <view>12</view>
+        </view>
+        <!--left_list--end-->
+        <view class="right_course">
+            <view class="Monday">
+            <view class="base_square_1">嵌入式软件基础<view class="place">明理楼B203</view></view>
+            <view class="base_square_2">数据库原理<view class="place">明理楼B203</view></view>
+            </view>
+            <!--Monday--end-->
+            <view class="Tuesday">
+            <view class="null_2"></view>
+            <view class="base_square_2">数据库原理<view class="place">明理楼B203</view></view>
+            </view>
+            <!--Tuesday--end-->   
+            <view class="Wednesday">
+            <view class="null_5"></view>
+            <view class="base_square_1">数据库原理<view class="place">明理楼B203</view></view>
+            </view>
+            <!--Wednesday--end-->
+            <view class="Thursday">
+           <view class="null_5"></view>
+           <view class="null_2"></view>
+           <view class="base_square_1" style="background-color:#f9bdbb">数字逻辑<view class="place">明理楼B201</view></view>
+            </view>
+            <!--Thurday--end-->
+            <view class="Friday">
+            <view class="base_square_1">嵌入式软件基础<view class="place">明理楼B203</view></view>
+            <view class="base_square_2">数据库原理<view class="place">明理楼B203</view></view>
+            </view>
+            <!--Friday--end-->
+            
+    </view>
+        <!--right_course--end-->
+</view>
+<!--view_content--end-->
+</view>
+<!--container--end-->
+
+
